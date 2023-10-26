@@ -40,8 +40,16 @@
             this.buttonDiningHall = new System.Windows.Forms.Button();
             this.buttonWorkshop = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.groupBoxActions = new System.Windows.Forms.GroupBox();
+            this.buttonTalk = new System.Windows.Forms.Button();
+            this.groupBoxDialog = new System.Windows.Forms.GroupBox();
+            this.textBoxDialog = new System.Windows.Forms.TextBox();
+            this.Image_Character = new System.Windows.Forms.PictureBox();
             this.locationInformation.SuspendLayout();
             this.Naviagtor.SuspendLayout();
+            this.groupBoxActions.SuspendLayout();
+            this.groupBoxDialog.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Image_Character)).BeginInit();
             this.SuspendLayout();
             // 
             // locationInformation
@@ -50,7 +58,7 @@
             this.locationInformation.Controls.Add(this.areaNameLabel);
             this.locationInformation.Controls.Add(this.areaDescription);
             this.locationInformation.Controls.Add(this.areaName);
-            this.locationInformation.Location = new System.Drawing.Point(1416, 619);
+            this.locationInformation.Location = new System.Drawing.Point(1415, 730);
             this.locationInformation.Name = "locationInformation";
             this.locationInformation.Size = new System.Drawing.Size(420, 288);
             this.locationInformation.TabIndex = 0;
@@ -99,7 +107,7 @@
             this.Naviagtor.Controls.Add(this.buttonExterior);
             this.Naviagtor.Controls.Add(this.buttonDiningHall);
             this.Naviagtor.Controls.Add(this.buttonWorkshop);
-            this.Naviagtor.Location = new System.Drawing.Point(114, 587);
+            this.Naviagtor.Location = new System.Drawing.Point(63, 794);
             this.Naviagtor.Name = "Naviagtor";
             this.Naviagtor.Size = new System.Drawing.Size(227, 224);
             this.Naviagtor.TabIndex = 1;
@@ -145,20 +153,79 @@
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // groupBoxActions
+            // 
+            this.groupBoxActions.Controls.Add(this.buttonTalk);
+            this.groupBoxActions.Location = new System.Drawing.Point(365, 794);
+            this.groupBoxActions.Name = "groupBoxActions";
+            this.groupBoxActions.Size = new System.Drawing.Size(168, 224);
+            this.groupBoxActions.TabIndex = 2;
+            this.groupBoxActions.TabStop = false;
+            this.groupBoxActions.Text = "Actions";
+            this.groupBoxActions.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // buttonTalk
+            // 
+            this.buttonTalk.Location = new System.Drawing.Point(8, 22);
+            this.buttonTalk.Name = "buttonTalk";
+            this.buttonTalk.Size = new System.Drawing.Size(72, 31);
+            this.buttonTalk.TabIndex = 0;
+            this.buttonTalk.Text = "Talk";
+            this.buttonTalk.UseVisualStyleBackColor = true;
+            // 
+            // groupBoxDialog
+            // 
+            this.groupBoxDialog.Controls.Add(this.textBoxDialog);
+            this.groupBoxDialog.Location = new System.Drawing.Point(567, 796);
+            this.groupBoxDialog.Name = "groupBoxDialog";
+            this.groupBoxDialog.Size = new System.Drawing.Size(569, 222);
+            this.groupBoxDialog.TabIndex = 3;
+            this.groupBoxDialog.TabStop = false;
+            this.groupBoxDialog.Text = "Name";
+            this.groupBoxDialog.Visible = false;
+            // 
+            // textBoxDialog
+            // 
+            this.textBoxDialog.Location = new System.Drawing.Point(14, 20);
+            this.textBoxDialog.Multiline = true;
+            this.textBoxDialog.Name = "textBoxDialog";
+            this.textBoxDialog.ReadOnly = true;
+            this.textBoxDialog.Size = new System.Drawing.Size(526, 187);
+            this.textBoxDialog.TabIndex = 0;
+            // 
+            // Image_Character
+            // 
+            this.Image_Character.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.Image_Character.BackColor = System.Drawing.Color.Transparent;
+            this.Image_Character.Location = new System.Drawing.Point(567, 269);
+            this.Image_Character.Name = "Image_Character";
+            this.Image_Character.Size = new System.Drawing.Size(569, 749);
+            this.Image_Character.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Image_Character.TabIndex = 4;
+            this.Image_Character.TabStop = false;
+            this.Image_Character.Visible = false;
             // 
             // MoonBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.groupBoxDialog);
+            this.Controls.Add(this.groupBoxActions);
             this.Controls.Add(this.Naviagtor);
             this.Controls.Add(this.locationInformation);
+            this.Controls.Add(this.Image_Character);
             this.Name = "MoonBase";
             this.Text = "Moon Base Theta";
             this.locationInformation.ResumeLayout(false);
             this.locationInformation.PerformLayout();
             this.Naviagtor.ResumeLayout(false);
+            this.groupBoxActions.ResumeLayout(false);
+            this.groupBoxDialog.ResumeLayout(false);
+            this.groupBoxDialog.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Image_Character)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -176,6 +243,11 @@
         private System.Windows.Forms.Button buttonDiningHall;
         private System.Windows.Forms.Button buttonWorkshop;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.GroupBox groupBoxActions;
+        private System.Windows.Forms.Button buttonTalk;
+        private System.Windows.Forms.GroupBox groupBoxDialog;
+        private System.Windows.Forms.TextBox textBoxDialog;
+        private System.Windows.Forms.PictureBox Image_Character;
     }
 }
 

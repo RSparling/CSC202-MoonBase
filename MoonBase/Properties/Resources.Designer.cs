@@ -61,6 +61,42 @@ namespace MoonBase.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Amid the hum of machinery, Dante carefully adjusted a tool in his hand. \&quot;Hand me that micro-welder, will you?&quot; he asked a colleague. After a brief pause, he continued, \&quot;This place, this workshop—it&apos;s where we turn challenges into opportunities. Every problem we face here is just another puzzle to solve.&quot;.
+        /// </summary>
+        internal static string dialog_Dante {
+            get {
+                return ResourceManager.GetString("dialog_Dante", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Looking out from one of the open windows, Lira&apos;s eyes were lost in the vastness of the lunar terrain. &quot;You know,&quot; she started, pulling the privacy screen around her bed down slightly, &quot;I never get tired of this view. Makes you feel so small yet a part of something much larger.&quot;.
+        /// </summary>
+        internal static string dialog_Lira {
+            get {
+                return ResourceManager.GetString("dialog_Lira", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The external comms crackled to life as Noelle began her transmission. &quot;Noelle here. I&apos;m outside MoonBase Theta. The expanse is quiet today.&quot; There&apos;s a moment of contemplative silence before she added, &quot;Being out here, in this hardsuit, you&apos;re reminded of the fragility of it all. Yet look at what we&apos;ve built..
+        /// </summary>
+        internal static string dialog_Noelle {
+            get {
+                return ResourceManager.GetString("dialog_Noelle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sipping on a mug filled with a steaming, nutrient-rich beverage, Rajan gestured towards the panoramic window showcasing the lunar Earthrise. &quot;Every time I sit here and have a meal, I&apos;m reminded of the first time I saw that view. Magical, isn&apos;t it? Makes this freeze-dried food taste just a little bit better.&quot;.
+        /// </summary>
+        internal static string dialog_Rajan {
+            get {
+                return ResourceManager.GetString("dialog_Rajan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The canteen at MoonBase Theta is a welcoming oasis of camaraderie in the lunar expanse. Its sleek, minimalist design features polished metal surfaces, ergonomic seating, and large, panoramic windows that offer breathtaking views of the lunar landscape. The soft hum of ventilation systems mingles with the friendly chatter of astronauts, creating a cozy atmosphere as they gather to enjoy delicious, space-age meals and unwind from their lunar duties. It&apos;s a place where astronauts come together, forging bonds o [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DininghallText {
@@ -117,6 +153,16 @@ namespace MoonBase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_Dante {
+            get {
+                object obj = ResourceManager.GetObject("img_Dante", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_dininghall {
             get {
                 object obj = ResourceManager.GetObject("img_dininghall", resourceCulture);
@@ -140,6 +186,36 @@ namespace MoonBase.Properties {
         internal static System.Drawing.Bitmap img_habitat {
             get {
                 object obj = ResourceManager.GetObject("img_habitat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Lira {
+            get {
+                object obj = ResourceManager.GetObject("img_Lira", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Noelle {
+            get {
+                object obj = ResourceManager.GetObject("img_Noelle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Rajan {
+            get {
+                object obj = ResourceManager.GetObject("img_Rajan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

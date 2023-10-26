@@ -8,3 +8,4 @@ S:\CSC202\MoonBase\MoonBase\obj\Debug\MoonBase.csproj.GenerateResource.cache
 S:\CSC202\MoonBase\MoonBase\obj\Debug\MoonBase.csproj.CoreCompileInputs.cache
 S:\CSC202\MoonBase\MoonBase\obj\Debug\MoonBase.exe
 S:\CSC202\MoonBase\MoonBase\obj\Debug\MoonBase.pdb
+C:\Users\rspar\Source\Repos\CSC202-MoonBase\MoonBase\bin\Debug\MoonBase.exe

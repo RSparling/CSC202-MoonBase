@@ -54,8 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scenes\Scene.cs" />
-    <Compile Include="Scenes\SceneManager.cs" />
+    <Compile Include="Src\Actor\Actor.cs" />
+    <Compile Include="Src\Actor\Character.cs" />
+    <Compile Include="Src\Actor\CharacterManager.cs" />
+    <Compile Include="Src\Actor\Player.cs" />
+    <Compile Include="Src\Scenes\Scene.cs" />
+    <Compile Include="Src\Scenes\SceneManager.cs" />
     <EmbeddedResource Include="MoonBase.resx">
       <DependentUpon>MoonBase.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +100,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\workshop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_Rajan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_Noelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_Lira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_Dante.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
