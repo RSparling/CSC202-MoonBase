@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DininghallText" xml:space="preserve">
+    <value>The canteen at MoonBase Theta is a welcoming oasis of camaraderie in the lunar expanse. Its sleek, minimalist design features polished metal surfaces, ergonomic seating, and large, panoramic windows that offer breathtaking views of the lunar landscape. The soft hum of ventilation systems mingles with the friendly chatter of astronauts, creating a cozy atmosphere as they gather to enjoy delicious, space-age meals and unwind from their lunar duties. It's a place where astronauts come together, forging bonds over nutrient-rich fare and sharing stories beneath the gentle glow of lunar Earthrise, fostering a sense of unity and connection amid the solitude of space.</value>
+  </data>
+  <data name="DininghallTitle" xml:space="preserve">
+    <value>Dining Hall</value>
+  </data>
+  <data name="ExteriorText" xml:space="preserve">
+    <value>MoonBase Theta is a remarkable lunar outpost, constructed from a striking array of prefabricated modules and equipment. Its exterior is a testament to human ingenuity and adaptability in the harsh lunar environment. The base's metallic skin glistens in the soft lunar sunlight, its modular design resembling a futuristic puzzle of interconnected components. Solar panels stretch across the surface, capturing precious sunlight to power the base's vital systems, while a series of airlocks and sealed hatches punctuate the structure, allowing astronauts to safely traverse the moon's barren landscape. Against the stark lunar backdrop, MoonBase Theta stands as a beacon of human achievement and innovation on the desolate lunar surface.</value>
+  </data>
+  <data name="ExteriorTitle" xml:space="preserve">
+    <value>Exterior</value>
+  </data>
+  <data name="HabitatText" xml:space="preserve">
+    <value>The habitat is a cozy and efficient living space, featuring open windows that allow natural light to flood in, offering breathtaking views of the surrounding lunar landscape. Its ingenious design incorporates stacked, in-wall beds equipped with fold-down privacy screens, optimizing the limited space without sacrificing comfort and personal space for the inhabitants. The privacy screens provide a sense of personal retreat while preserving the sense of openness within the habitat, creating a harmonious balance between the lunar frontier and the comforts of home.</value>
+  </data>
+  <data name="HabitatTitle" xml:space="preserve">
+    <value>Habitat</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="img_dininghall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dininghall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_exterior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exterior.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_habitat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\habitat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_workshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\workshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WorkshopText" xml:space="preserve">
+    <value>The workshop at MoonBase Theta is a bustling hub of innovation and problem-solving. Its compact, utilitarian design optimizes every inch of space, housing an array of state-of-the-art tools and equipment. Here, astronauts and scientists collaborate to fabricate, repair, and innovate, working tirelessly to overcome the unique challenges posed by the lunar environment. The soft hum of machinery and the scent of metalwork permeate the air, underscoring the workshop's vital role in sustaining life and advancing lunar exploration.</value>
+  </data>
+  <data name="WorkshopTitle" xml:space="preserve">
+    <value>Workshop</value>
+  </data>
+</root>

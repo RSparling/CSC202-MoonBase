@@ -1,0 +1,10 @@
+S:\CSC202\MoonBase\MoonBase\bin\Release\MoonBase.exe.config
+S:\CSC202\MoonBase\MoonBase\bin\Release\MoonBase.exe
+S:\CSC202\MoonBase\MoonBase\bin\Release\MoonBase.pdb
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.csproj.AssemblyReference.cache
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.MoonBase.resources
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.Properties.Resources.resources
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.csproj.GenerateResource.cache
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.csproj.CoreCompileInputs.cache
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.exe
+S:\CSC202\MoonBase\MoonBase\obj\Release\MoonBase.pdb
