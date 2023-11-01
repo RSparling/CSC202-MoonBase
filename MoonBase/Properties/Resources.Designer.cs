@@ -61,6 +61,42 @@ namespace MoonBase.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Amid the hum of machinery, Dante carefully adjusted a tool in his hand. \&quot;Hand me that micro-welder, will you?&quot; he asked a colleague. After a brief pause, he continued, \&quot;This place, this workshop—it&apos;s where we turn challenges into opportunities. Every problem we face here is just another puzzle to solve.&quot;.
+        /// </summary>
+        internal static string dialog_Dante {
+            get {
+                return ResourceManager.GetString("dialog_Dante", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Looking out from one of the open windows, Lira&apos;s eyes were lost in the vastness of the lunar terrain. &quot;You know,&quot; she started, pulling the privacy screen around her bed down slightly, &quot;I never get tired of this view. Makes you feel so small yet a part of something much larger.&quot;.
+        /// </summary>
+        internal static string dialog_Lira {
+            get {
+                return ResourceManager.GetString("dialog_Lira", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The external comms crackled to life as Noelle began her transmission. &quot;Noelle here. I&apos;m outside MoonBase Theta. The expanse is quiet today.&quot; There&apos;s a moment of contemplative silence before she added, &quot;Being out here, in this hardsuit, you&apos;re reminded of the fragility of it all. Yet look at what we&apos;ve built..
+        /// </summary>
+        internal static string dialog_Noelle {
+            get {
+                return ResourceManager.GetString("dialog_Noelle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sipping on a mug filled with a steaming, nutrient-rich beverage, Rajan gestured towards the panoramic window showcasing the lunar Earthrise. &quot;Every time I sit here and have a meal, I&apos;m reminded of the first time I saw that view. Magical, isn&apos;t it? Makes this freeze-dried food taste just a little bit better.&quot;.
+        /// </summary>
+        internal static string dialog_Rajan {
+            get {
+                return ResourceManager.GetString("dialog_Rajan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The canteen at MoonBase Theta is a welcoming oasis of camaraderie in the lunar expanse. Its sleek, minimalist design features polished metal surfaces, ergonomic seating, and large, panoramic windows that offer breathtaking views of the lunar landscape. The soft hum of ventilation systems mingles with the friendly chatter of astronauts, creating a cozy atmosphere as they gather to enjoy delicious, space-age meals and unwind from their lunar duties. It&apos;s a place where astronauts come together, forging bonds o [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DininghallText {
@@ -75,6 +111,24 @@ namespace MoonBase.Properties {
         internal static string DininghallTitle {
             get {
                 return ResourceManager.GetString("DininghallTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The entryway of MoonBase Theta is a compact vestibule, the threshold between the vastness of space and the sanctuary of human habitation. It&apos;s a functional space, lined with airtight seals and lockers for suits and equipment, embodying the precision engineering required to sustain life on the lunar surface. Here, the floors are scuffed from the boots of astronauts coming and going, a testament to the constant activity that pulses through this artery of the base. Overhead, the gentle hum of the life support  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string EntryWay_Text {
+            get {
+                return ResourceManager.GetString("EntryWay Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Entry Way.
+        /// </summary>
+        internal static string EntryWay_Title {
+            get {
+                return ResourceManager.GetString("EntryWay Title", resourceCulture);
             }
         }
         
@@ -117,9 +171,29 @@ namespace MoonBase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_Dante {
+            get {
+                object obj = ResourceManager.GetObject("img_Dante", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_dininghall {
             get {
                 object obj = ResourceManager.GetObject("img_dininghall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_EntryWay {
+            get {
+                object obj = ResourceManager.GetObject("img_EntryWay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -147,10 +221,116 @@ namespace MoonBase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_Lira {
+            get {
+                object obj = ResourceManager.GetObject("img_Lira", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_MainCorridor1 {
+            get {
+                object obj = ResourceManager.GetObject("img_MainCorridor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_MainCorridor2 {
+            get {
+                object obj = ResourceManager.GetObject("img_MainCorridor2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Map {
+            get {
+                object obj = ResourceManager.GetObject("img_Map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_MedBay {
+            get {
+                object obj = ResourceManager.GetObject("img_MedBay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Noelle {
+            get {
+                object obj = ResourceManager.GetObject("img_Noelle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Rajan {
+            get {
+                object obj = ResourceManager.GetObject("img_Rajan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_workshop {
             get {
                 object obj = ResourceManager.GetObject("img_workshop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The main corridor of MoonBase Theta is the artery of this lunar stronghold, a sleek and utilitarian conduit linking the vital organs of the outpost. Illuminated by strips of soft LED lights recessed into the walls and ceiling, the corridor&apos;s polished metal floors reflect the gentle luminescence, creating a serene path that guides the crew from one module to another. Color-coded lines run along the walls, subtle but clear indicators directing toward the medbay&apos;s lifesaving sanctuary, the workshop&apos;s hive of c [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string MainHall_Text {
+            get {
+                return ResourceManager.GetString("MainHall Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Hall .
+        /// </summary>
+        internal static string MainHall_Title {
+            get {
+                return ResourceManager.GetString("MainHall Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The med bay in MoonBase Theta is a pristine enclave of sterility and calm, an oasis of earthly medical technology amidst the lunar wilderness. Its white walls and gleaming equipment stand in stark contrast to the rugged moonscape visible through the small porthole windows..
+        /// </summary>
+        internal static string MedBay_Text {
+            get {
+                return ResourceManager.GetString("MedBay Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Medbay.
+        /// </summary>
+        internal static string MedBay_Title {
+            get {
+                return ResourceManager.GetString("MedBay Title", resourceCulture);
             }
         }
         

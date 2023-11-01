@@ -117,11 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="dialog_Dante" xml:space="preserve">
+    <value>Amid the hum of machinery, Dante carefully adjusted a tool in his hand. \"Hand me that micro-welder, will you?" he asked a colleague. After a brief pause, he continued, \"This place, this workshop—it's where we turn challenges into opportunities. Every problem we face here is just another puzzle to solve."</value>
+  </data>
+  <data name="dialog_Lira" xml:space="preserve">
+    <value>Looking out from one of the open windows, Lira's eyes were lost in the vastness of the lunar terrain. "You know," she started, pulling the privacy screen around her bed down slightly, "I never get tired of this view. Makes you feel so small yet a part of something much larger."</value>
+  </data>
+  <data name="dialog_Noelle" xml:space="preserve">
+    <value>The external comms crackled to life as Noelle began her transmission. "Noelle here. I'm outside MoonBase Theta. The expanse is quiet today." There's a moment of contemplative silence before she added, "Being out here, in this hardsuit, you're reminded of the fragility of it all. Yet look at what we've built.</value>
+  </data>
+  <data name="dialog_Rajan" xml:space="preserve">
+    <value>Sipping on a mug filled with a steaming, nutrient-rich beverage, Rajan gestured towards the panoramic window showcasing the lunar Earthrise. "Every time I sit here and have a meal, I'm reminded of the first time I saw that view. Magical, isn't it? Makes this freeze-dried food taste just a little bit better."</value>
+  </data>
   <data name="DininghallText" xml:space="preserve">
     <value>The canteen at MoonBase Theta is a welcoming oasis of camaraderie in the lunar expanse. Its sleek, minimalist design features polished metal surfaces, ergonomic seating, and large, panoramic windows that offer breathtaking views of the lunar landscape. The soft hum of ventilation systems mingles with the friendly chatter of astronauts, creating a cozy atmosphere as they gather to enjoy delicious, space-age meals and unwind from their lunar duties. It's a place where astronauts come together, forging bonds over nutrient-rich fare and sharing stories beneath the gentle glow of lunar Earthrise, fostering a sense of unity and connection amid the solitude of space.</value>
   </data>
   <data name="DininghallTitle" xml:space="preserve">
     <value>Dining Hall</value>
+  </data>
+  <data name="EntryWay Text" xml:space="preserve">
+    <value>The entryway of MoonBase Theta is a compact vestibule, the threshold between the vastness of space and the sanctuary of human habitation. It's a functional space, lined with airtight seals and lockers for suits and equipment, embodying the precision engineering required to sustain life on the lunar surface. Here, the floors are scuffed from the boots of astronauts coming and going, a testament to the constant activity that pulses through this artery of the base. Overhead, the gentle hum of the life support system is a constant reminder of the thin line between the void outside and the breathable atmosphere within. The entryway, with its stark lighting and the reassuring sound of air cycling through vents, serves not just as a physical gateway, but also as a psychological boundary, where one sheds the enormity of the cosmos and steps into the human-scale world crafted within the moon's desolate embrace.</value>
+  </data>
+  <data name="EntryWay Title" xml:space="preserve">
+    <value>Entry Way</value>
   </data>
   <data name="ExteriorText" xml:space="preserve">
     <value>MoonBase Theta is a remarkable lunar outpost, constructed from a striking array of prefabricated modules and equipment. Its exterior is a testament to human ingenuity and adaptability in the harsh lunar environment. The base's metallic skin glistens in the soft lunar sunlight, its modular design resembling a futuristic puzzle of interconnected components. Solar panels stretch across the surface, capturing precious sunlight to power the base's vital systems, while a series of airlocks and sealed hatches punctuate the structure, allowing astronauts to safely traverse the moon's barren landscape. Against the stark lunar backdrop, MoonBase Theta stands as a beacon of human achievement and innovation on the desolate lunar surface.</value>
@@ -136,8 +154,14 @@
     <value>Habitat</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="img_Dante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_Dante.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img_dininghall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dininghall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_EntryWay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entry Way.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img_exterior" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exterior.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +169,41 @@
   <data name="img_habitat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\habitat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="img_Lira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_Lira.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_MainCorridor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main Corridor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_MainCorridor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main Hallway 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_Map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_MedBay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medbay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_Noelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_Noelle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_Rajan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_Rajan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img_workshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\workshop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainHall Text" xml:space="preserve">
+    <value>The main corridor of MoonBase Theta is the artery of this lunar stronghold, a sleek and utilitarian conduit linking the vital organs of the outpost. Illuminated by strips of soft LED lights recessed into the walls and ceiling, the corridor's polished metal floors reflect the gentle luminescence, creating a serene path that guides the crew from one module to another. Color-coded lines run along the walls, subtle but clear indicators directing toward the medbay's lifesaving sanctuary, the workshop's hive of creativity, the dining hall's communal warmth, and the habitat's personal quarters. The air is tinged with a blend of antiseptic from the medbay, the ozone from the workshop, and the faint aromas wafting from the dining hall, a sensory tapestry that tells the story of life on the moon. Every footstep and transmission echo softly here, in this corridor that feels less like a passageway and more like a lifeline, sustaining the pulse of human presence in the desolate embrace of space.</value>
+  </data>
+  <data name="MainHall Title" xml:space="preserve">
+    <value>Main Hall </value>
+  </data>
+  <data name="MedBay Text" xml:space="preserve">
+    <value>The med bay in MoonBase Theta is a pristine enclave of sterility and calm, an oasis of earthly medical technology amidst the lunar wilderness. Its white walls and gleaming equipment stand in stark contrast to the rugged moonscape visible through the small porthole windows.</value>
+  </data>
+  <data name="MedBay Title" xml:space="preserve">
+    <value>Medbay</value>
   </data>
   <data name="WorkshopText" xml:space="preserve">
     <value>The workshop at MoonBase Theta is a bustling hub of innovation and problem-solving. Its compact, utilitarian design optimizes every inch of space, housing an array of state-of-the-art tools and equipment. Here, astronauts and scientists collaborate to fabricate, repair, and innovate, working tirelessly to overcome the unique challenges posed by the lunar environment. The soft hum of machinery and the scent of metalwork permeate the air, underscoring the workshop's vital role in sustaining life and advancing lunar exploration.</value>
