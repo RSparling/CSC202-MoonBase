@@ -115,6 +115,24 @@ namespace MoonBase.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The entryway of MoonBase Theta is a compact vestibule, the threshold between the vastness of space and the sanctuary of human habitation. It&apos;s a functional space, lined with airtight seals and lockers for suits and equipment, embodying the precision engineering required to sustain life on the lunar surface. Here, the floors are scuffed from the boots of astronauts coming and going, a testament to the constant activity that pulses through this artery of the base. Overhead, the gentle hum of the life support  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string EntryWay_Text {
+            get {
+                return ResourceManager.GetString("EntryWay Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Entry Way.
+        /// </summary>
+        internal static string EntryWay_Title {
+            get {
+                return ResourceManager.GetString("EntryWay Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MoonBase Theta is a remarkable lunar outpost, constructed from a striking array of prefabricated modules and equipment. Its exterior is a testament to human ingenuity and adaptability in the harsh lunar environment. The base&apos;s metallic skin glistens in the soft lunar sunlight, its modular design resembling a futuristic puzzle of interconnected components. Solar panels stretch across the surface, capturing precious sunlight to power the base&apos;s vital systems, while a series of airlocks and sealed hatches punc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ExteriorText {
@@ -173,6 +191,16 @@ namespace MoonBase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_EntryWay {
+            get {
+                object obj = ResourceManager.GetObject("img_EntryWay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_exterior {
             get {
                 object obj = ResourceManager.GetObject("img_exterior", resourceCulture);
@@ -196,6 +224,46 @@ namespace MoonBase.Properties {
         internal static System.Drawing.Bitmap img_Lira {
             get {
                 object obj = ResourceManager.GetObject("img_Lira", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_MainCorridor1 {
+            get {
+                object obj = ResourceManager.GetObject("img_MainCorridor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_MainCorridor2 {
+            get {
+                object obj = ResourceManager.GetObject("img_MainCorridor2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_Map {
+            get {
+                object obj = ResourceManager.GetObject("img_Map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_MedBay {
+            get {
+                object obj = ResourceManager.GetObject("img_MedBay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -227,6 +295,42 @@ namespace MoonBase.Properties {
             get {
                 object obj = ResourceManager.GetObject("img_workshop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The main corridor of MoonBase Theta is the artery of this lunar stronghold, a sleek and utilitarian conduit linking the vital organs of the outpost. Illuminated by strips of soft LED lights recessed into the walls and ceiling, the corridor&apos;s polished metal floors reflect the gentle luminescence, creating a serene path that guides the crew from one module to another. Color-coded lines run along the walls, subtle but clear indicators directing toward the medbay&apos;s lifesaving sanctuary, the workshop&apos;s hive of c [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string MainHall_Text {
+            get {
+                return ResourceManager.GetString("MainHall Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Hall .
+        /// </summary>
+        internal static string MainHall_Title {
+            get {
+                return ResourceManager.GetString("MainHall Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The med bay in MoonBase Theta is a pristine enclave of sterility and calm, an oasis of earthly medical technology amidst the lunar wilderness. Its white walls and gleaming equipment stand in stark contrast to the rugged moonscape visible through the small porthole windows..
+        /// </summary>
+        internal static string MedBay_Text {
+            get {
+                return ResourceManager.GetString("MedBay Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Medbay.
+        /// </summary>
+        internal static string MedBay_Title {
+            get {
+                return ResourceManager.GetString("MedBay Title", resourceCulture);
             }
         }
         

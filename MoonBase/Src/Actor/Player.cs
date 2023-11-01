@@ -12,10 +12,10 @@ namespace MoonBase.Src.Actor
         //consts of botton names in the form in to make reduce chance of typo
 
         //location buttons
-        private const string buttonHabitat = "buttonHabitat";
-        private const string buttonExterior = "buttonExterior";
-        private const string buttonWorkshop = "buttonWorkshop";
-        private const string buttonDinningHall = "buttonDiningHall";
+        private const string button_Up = "button_nav1";
+        private const string button_Left = "button_nav2";
+        private const string button_Down = "button_nav3";
+        private const string button_Right = "button_nav4";
 
         //action buttons
         private const string buttonTalk = "buttonTalk";
@@ -38,20 +38,20 @@ namespace MoonBase.Src.Actor
             int newLocation = -1;
             switch (senderName)
             {
-                case buttonHabitat:
-                    newLocation = sceneManager.ChangeScene("habitat");
+                case button_Up:
+                    sceneManager.ChangeScene("Up");
                     return;
 
-                case buttonExterior:
-                    newLocation = sceneManager.ChangeScene("exterior");
+                case button_Left:
+                    newLocation = sceneManager.ChangeScene("Left");
                     return;
 
-                case buttonWorkshop:
-                    newLocation = sceneManager.ChangeScene("workshop");
+                case button_Down:
+                    newLocation = sceneManager.ChangeScene("Down");
                     return;
 
-                case buttonDinningHall:
-                    newLocation = sceneManager.ChangeScene("dininghall");
+                case button_Right:
+                    newLocation = sceneManager.ChangeScene("Right");
                     return;
                 case buttonTalk:
                     CharacterManager.instance.TalkToCharacter();

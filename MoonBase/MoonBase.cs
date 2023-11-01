@@ -1,4 +1,5 @@
-﻿using MoonBase.Scenes;
+﻿using MoonBase.Properties;
+using MoonBase.Scenes;
 using MoonBase.Src.Actor;
 using System;
 using System.Drawing;
@@ -15,6 +16,7 @@ namespace MoonBase
         private Player player;
 
         private CharacterManager characterManager;
+        private Map map;
 
         public MoonBase()
         {
@@ -22,38 +24,40 @@ namespace MoonBase
             sceneManager = new SceneManager(this);
             player = new Player(sceneManager); //needs scene manager ref for movement
             characterManager = new CharacterManager(this); //need scene manager for passing dialog and image changes
-
+            Map map = new Map(this);
+            mapImage.Image = Resources.img_Map;
             //subscribing player to listeners
-            this.buttonDiningHall.Click += player.OnButtonClick;
-            this.buttonExterior.Click += player.OnButtonClick;
-            this.buttonWorkshop.Click += player.OnButtonClick;
-            this.buttonHabitat.Click += player.OnButtonClick;
+            this.button_nav2.Click += player.OnButtonClick;
+            this.button_nav3.Click += player.OnButtonClick;
+            this.button_nav4.Click += player.OnButtonClick;
+            this.button_nav1.Click += player.OnButtonClick;
             this.buttonTalk.Click += player.OnButtonClick;
             sceneManager.ForcePushSceneUpdate();//makes sure everything is setup.
         }
 
         public void DisableLocation(string location)
         {
+
             switch (location.ToLower())
             {
-                case "habitat":
-                    buttonHabitat.Enabled = false;
+                case "north":
+                    button_nav1.Enabled = false;
                     return;
 
-                case "workshop":
-                    buttonWorkshop.Enabled = false;
+                case "west":
+                    button_nav4.Enabled = false;
                     return;
 
-                case "exterior":
-                    buttonExterior.Enabled = false;
+                case "south":
+                    button_nav3.Enabled = false;
                     return;
 
-                case "dininghall":
-                    buttonDiningHall.Enabled = false;
+                case "east":
+                    button_nav2.Enabled = false;
                     return;
 
                 default:
-                    throw new ArgumentException(String.Format("{0} is invalid button string.", location.ToLower()), "location"); // location is not of valid
+                    return;
             }
         }
 
@@ -61,24 +65,24 @@ namespace MoonBase
         {
             switch (location.ToLower())
             {
-                case "habitat":
-                    buttonHabitat.Enabled = true;
+                case "north":
+                    button_nav1.Enabled = true;
                     return;
 
-                case "workshop":
-                    buttonWorkshop.Enabled = true;
+                case "west":
+                    button_nav4.Enabled = true;
                     return;
 
-                case "exterior":
-                    buttonExterior.Enabled = true;
+                case "south":
+                    button_nav3.Enabled = true;
                     return;
 
-                case "dininghall":
-                    buttonDiningHall.Enabled = true;
+                case "east":
+                    button_nav2.Enabled = true;
                     return;
 
                 default:
-                    throw new ArgumentException(String.Format("{0} is invalid button string.", location.ToLower()), "location"); // location is not of valid
+                    return;
             }
         }
 
@@ -104,12 +108,75 @@ namespace MoonBase
             Image_Character.Visible = true;
         }
 
+        public void ClearAllLocationMarkers()
+        {
+            loc_CentralCorridor1.Checked = false;
+            loc_CentralCorridor2.Checked = false;
+            loc_EntryWay.Checked = false;
+            loc_Exterior.Checked = false;
+            loc_Habitat.Checked = false;
+            loc_MedBay.Checked = false;
+            loc_MessHall.Checked = false;
+            loc_Workshop.Checked = false;
+        }
+
+        public void SetLocationMarker(int id)
+        {
+            switch (id)
+            {
+                case 0:
+                    loc_Exterior.Checked = true;
+                    return;
+
+                case 1:
+                    loc_MessHall.Checked = true;
+                    return;
+
+                case 2:
+                    loc_Habitat.Checked = true;
+                    return;
+
+                case 3:
+                    loc_Workshop.Checked = true;
+                    return;
+
+                case 4:
+                    loc_MedBay.Checked = true;
+                    return;
+
+                case 5:
+                    loc_CentralCorridor2.Checked = true;
+                    return;
+
+                case 6:
+                    loc_CentralCorridor1.Checked = true;
+                    return;
+
+                case 7:
+                    loc_EntryWay.Checked = true;
+                    return;
+
+                default:
+                    MessageBox.Show("Error Changing Scene, Cannot Find Map Location of Scene ID: " + id);
+                    return;
+            }
+        }
+
         private void groupBox1_Enter(object sender, EventArgs e)
         {
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+        }
+
+        private void groupBox1_Enter_1(object sender, EventArgs e)
+        {
+        }
+
+        private void button_nav1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -44,15 +44,16 @@ namespace MoonBase.Src.Actor
         //get character at current location
         public void UpdateCharacterAtLocation(int location_id)
         {
-            try
+            if (characterList.Any<Character>(c => c.getLocationID == location_id))
             {
                 sceneCharacter = characterList.First<Character>(c => c.getLocationID == location_id); //get character by ID, first used due to id being unique
                 moonBase.UpdatePresentActor(sceneCharacter.getImage);
+                return;
             }
-            catch
-            {
-                MessageBox.Show("No character found at Location ID:" + location_id);
-            }
+
+            sceneCharacter = null;
+            moonBase.UpdatePresentActor(null);
+  
         }
 
         public void TalkToCharacter()
