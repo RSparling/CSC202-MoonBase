@@ -5,6 +5,7 @@ using MoonBase.Src;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace MoonBase
 {
@@ -165,6 +166,18 @@ namespace MoonBase
             }
         }
 
+        public void UpdateListBox(List<Character> characters)
+        {
+            JobTitle.Items.Clear();
+            Names.Items.Clear();
+            JobTitle.Items.Add("Tourist");
+            Names.Items.Add("Clay Yar");
+            for(int i = 0; i< characters.Count; i++)
+            {
+                JobTitle.Items.Add(characters[i].GetJobTitle());
+                Names.Items.Add(characters[i].Name);
+            }
+        }
         private void groupBox1_Enter(object sender, EventArgs e)
         {
         }
@@ -179,6 +192,21 @@ namespace MoonBase
 
         private void button_nav1_Click(object sender, EventArgs e)
         {
+        }
+
+        private void groupBox1_Enter_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

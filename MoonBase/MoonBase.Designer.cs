@@ -59,6 +59,10 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.CharacterList = new System.Windows.Forms.GroupBox();
+            this.backgroundWorker3 = new System.ComponentModel.BackgroundWorker();
+            this.Names = new System.Windows.Forms.ListBox();
+            this.JobTitle = new System.Windows.Forms.ListBox();
             this.locationInformation.SuspendLayout();
             this.Naviagtor.SuspendLayout();
             this.groupBoxActions.SuspendLayout();
@@ -66,6 +70,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Image_Character)).BeginInit();
             this.Map.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mapImage)).BeginInit();
+            this.CharacterList.SuspendLayout();
             this.SuspendLayout();
             // 
             // locationInformation
@@ -347,11 +352,41 @@
             this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // CharacterList
+            // 
+            this.CharacterList.Controls.Add(this.JobTitle);
+            this.CharacterList.Controls.Add(this.Names);
+            this.CharacterList.Location = new System.Drawing.Point(31, 385);
+            this.CharacterList.Name = "CharacterList";
+            this.CharacterList.Size = new System.Drawing.Size(300, 316);
+            this.CharacterList.TabIndex = 6;
+            this.CharacterList.TabStop = false;
+            this.CharacterList.Text = "Who\'s Here";
+            this.CharacterList.Enter += new System.EventHandler(this.groupBox1_Enter_2);
+            // 
+            // Names
+            // 
+            this.Names.FormattingEnabled = true;
+            this.Names.Location = new System.Drawing.Point(7, 20);
+            this.Names.Name = "Names";
+            this.Names.Size = new System.Drawing.Size(120, 277);
+            this.Names.TabIndex = 0;
+            this.Names.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // JobTitle
+            // 
+            this.JobTitle.FormattingEnabled = true;
+            this.JobTitle.Location = new System.Drawing.Point(143, 19);
+            this.JobTitle.Name = "JobTitle";
+            this.JobTitle.Size = new System.Drawing.Size(120, 277);
+            this.JobTitle.TabIndex = 1;
+            // 
             // MoonBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.CharacterList);
             this.Controls.Add(this.Map);
             this.Controls.Add(this.groupBoxDialog);
             this.Controls.Add(this.groupBoxActions);
@@ -370,6 +405,7 @@
             this.Map.ResumeLayout(false);
             this.Map.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mapImage)).EndInit();
+            this.CharacterList.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -406,6 +442,10 @@
         private System.Windows.Forms.RadioButton loc_MedBay;
         private System.Windows.Forms.RadioButton loc_Habitat;
         private System.Windows.Forms.RadioButton loc_CentralCorridor2;
+        private System.Windows.Forms.GroupBox CharacterList;
+        private System.ComponentModel.BackgroundWorker backgroundWorker3;
+        private System.Windows.Forms.ListBox Names;
+        private System.Windows.Forms.ListBox JobTitle;
     }
 }
 
