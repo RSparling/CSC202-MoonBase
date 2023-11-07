@@ -136,7 +136,7 @@ namespace MoonBase.Scenes
             OnSceneChange?.Invoke(currentScene.sceneID);
             SetNavigatinoButtons();
             form.BackgroundImage = currentScene.image;
-            form.UpdateLocationData(currentScene.GetTitle, currentScene.GetDescription());
+            form.UpdateLocationData(currentScene.GetTitle(), currentScene.GetDescription());
         }
     }
 }

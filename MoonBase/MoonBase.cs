@@ -1,6 +1,7 @@
 ﻿using MoonBase.Properties;
 using MoonBase.Scenes;
 using MoonBase.Src.Actor;
+using MoonBase.Src;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -16,7 +17,10 @@ namespace MoonBase
         private Player player;
 
         private CharacterManager characterManager;
+
+#pragma warning disable CS0169 //it is used, it's just not used as a vairable within MoonBase.cs
         private Map map;
+#pragma warning restore CS0169 //it is used, it's just not used as a vairable within MoonBase.cs
 
         public MoonBase()
         {
@@ -37,7 +41,6 @@ namespace MoonBase
 
         public void DisableLocation(string location)
         {
-
             switch (location.ToLower())
             {
                 case "north":
@@ -176,7 +179,6 @@ namespace MoonBase
 
         private void button_nav1_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
