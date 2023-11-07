@@ -327,10 +327,11 @@
             // mapImage
             // 
             this.mapImage.BackgroundImage = global::MoonBase.Properties.Resources.img_Map;
+            this.mapImage.Image = global::MoonBase.Properties.Resources.img_Map;
             this.mapImage.Location = new System.Drawing.Point(0, 19);
             this.mapImage.Name = "mapImage";
             this.mapImage.Size = new System.Drawing.Size(300, 300);
-            this.mapImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.mapImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mapImage.TabIndex = 0;
             this.mapImage.TabStop = false;
             // 
