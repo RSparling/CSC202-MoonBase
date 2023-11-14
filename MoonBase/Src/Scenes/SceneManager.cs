@@ -81,6 +81,8 @@ namespace MoonBase.Scenes
         public int ChangeScene(string direction)
         {
             int nextSceneID = -1;
+            int previousScene = currentScene.sceneID; //used for triggering specific conditions when moving from one scene to another
+
             switch (direction)
             {
                 case "Up":
@@ -98,8 +100,11 @@ namespace MoonBase.Scenes
             if (nextSceneID == -1)
                 return currentScene.sceneID;
 
+            currentScene.OnSceneExit(nextSceneID);
             currentScene = scenes.First<Scene>(s => s.sceneID == nextSceneID);
-
+            currentScene.OnSceneEnter(previousScene);
+            currentScene.OnSceneExecute();
+            
             SetNavigatinoButtons();
 
             //set image and text

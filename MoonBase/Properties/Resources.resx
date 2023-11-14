@@ -205,6 +205,27 @@
   <data name="MedBay Title" xml:space="preserve">
     <value>Medbay</value>
   </data>
+  <data name="wavairlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavairlock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wavcrowdTalking1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavcrowdTalking1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wavcrowdTalking2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavcrowdTalking2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wavFan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavFan.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wavMedbay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavMedbay.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wavRoomAmbience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavRoomAmbience.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wavworkshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavworkshop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="WorkshopText" xml:space="preserve">
     <value>The workshop at MoonBase Theta is a bustling hub of innovation and problem-solving. Its compact, utilitarian design optimizes every inch of space, housing an array of state-of-the-art tools and equipment. Here, astronauts and scientists collaborate to fabricate, repair, and innovate, working tirelessly to overcome the unique challenges posed by the lunar environment. The soft hum of machinery and the scent of metalwork permeate the air, underscoring the workshop's vital role in sustaining life and advancing lunar exploration.</value>
   </data>

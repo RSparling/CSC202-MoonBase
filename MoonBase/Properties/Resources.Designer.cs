@@ -335,6 +335,69 @@ namespace MoonBase.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavairlock {
+            get {
+                return ResourceManager.GetStream("wavairlock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavcrowdTalking1 {
+            get {
+                return ResourceManager.GetStream("wavcrowdTalking1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavcrowdTalking2 {
+            get {
+                return ResourceManager.GetStream("wavcrowdTalking2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavFan {
+            get {
+                return ResourceManager.GetStream("wavFan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavMedbay {
+            get {
+                return ResourceManager.GetStream("wavMedbay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavRoomAmbience {
+            get {
+                return ResourceManager.GetStream("wavRoomAmbience", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wavworkshop {
+            get {
+                return ResourceManager.GetStream("wavworkshop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The workshop at MoonBase Theta is a bustling hub of innovation and problem-solving. Its compact, utilitarian design optimizes every inch of space, housing an array of state-of-the-art tools and equipment. Here, astronauts and scientists collaborate to fabricate, repair, and innovate, working tirelessly to overcome the unique challenges posed by the lunar environment. The soft hum of machinery and the scent of metalwork permeate the air, underscoring the workshop&apos;s vital role in sustaining life and advancing [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string WorkshopText {

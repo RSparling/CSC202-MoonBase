@@ -67,6 +67,7 @@
     <Compile Include="Src\Scenes\Medbay.cs" />
     <Compile Include="Src\Scenes\Scene.cs" />
     <Compile Include="Src\Scenes\SceneManager.cs" />
+    <Compile Include="Src\SoundManager.cs" />
     <EmbeddedResource Include="MoonBase.resx">
       <DependentUpon>MoonBase.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +127,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\img_MedBay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavRoomAmbience.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavcrowdTalking2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavcrowdTalking1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavworkshop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavairlock.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavMedbay.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavFan.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
